@@ -179,7 +179,7 @@ extension CountryPickerViewController {
     }
 
     public override func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
-       return CGFloat.leastNormalMagnitude
+        .leastNormalMagnitude
     }
 }
 
