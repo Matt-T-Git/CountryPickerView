@@ -173,14 +173,6 @@ extension CountryPickerViewController {
     override public func tableView(_ tableView: UITableView, sectionForSectionIndexTitle title: String, at index: Int) -> Int {
         return sectionsTitles.firstIndex(of: title)!
     }
-
-    public override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        .leastNormalMagnitude
-    }
-
-    public override func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
-        .leastNormalMagnitude
-    }
 }
 
 //MARK:- UITableViewDelegate
